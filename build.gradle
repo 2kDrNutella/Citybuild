@@ -1,0 +1,65 @@
+plugins {
+    id 'java'
+
+}
+
+group 'org.citybuild'
+version '1.0-SNAPSHOT'
+
+repositories {
+    flatDir {
+        dirs '../../GlobalUnterserver/CitybuildCore/build/libs'
+    }
+
+    flatDir {
+        dirs 'libs/'
+    }
+
+    mavenCentral()
+
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url = 'https://oss.sonatype.org/content/repositories/central' }
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+
+        content {
+            includeGroup 'org.spigotmc'
+            includeGroup 'org.bukkit'
+        }
+    }
+
+    maven {
+        name = 'minecraft-repo'
+        url = 'https://libraries.minecraft.net/'
+    }
+
+    maven { url 'https://jitpack.io' }
+    maven { url "https://repo.dmulloy2.net/repository/public/" }
+    maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.21.1-R0.1-SNAPSHOT'
+    compileOnly 'com.github.MilkBowl:VaultAPI:1.7'
+
+    implementation 'commons-io:commons-io:2.11.0'
+    implementation 'com.mojang:authlib:1.5.25'
+    implementation 'fr.mrmicky:fastboard:2.1.3'
+}
+
+
+jar {
+    compileJava.options.encoding = 'UTF-8'
+    duplicatesStrategy(DuplicatesStrategy.EXCLUDE)
+    manifest {}
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+
+
+
+
+

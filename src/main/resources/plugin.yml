@@ -1,0 +1,60 @@
+name: Citybuild
+main: de.drnutella.citybuild.Citybuild
+version: 1.0
+author: DrNutella
+api-version: 1.20
+
+commands:
+   setspawn:
+     permission: 'earth.setspawn'
+   spawn:
+   gamemode:
+     permission: 'earth-gamemode'
+     aliases: 'gm'
+   fly:
+     permission: 'earth-fly'
+     aliases: 'fliegen'
+   flyspeed:
+     permission: 'earth-fly'
+     aliases: 'fliegenspeed'
+   walkspeed:
+      permission: 'earth-walkspeed'
+      aliases: 'laufspeed'
+   home:
+      aliases: 'zuhause'
+   tpa:
+   tpahere:
+   freez:
+     permission: 'earth-freez'
+     aliases: 'tiefkuehlen'
+   tp:
+       permission: 'earth-teleport'
+       aliases: 'teleport'
+   tphere:
+      permission: 'earth-teleport-here'
+      aliases: 'teleporthere'
+   godmode:
+     permission: 'earth-godmode'
+   enderchest:
+     aliases: 'ec'
+   clear:
+     aliases: 'clearinv'
+   suicide:
+     permission: 'earth-suicide'
+   invsee:
+   near:
+   workbench:
+   stonecutter:
+   smithingtable:
+   grindstone:
+   loom:
+   pay:
+   anvil:
+   hat:
+     permission: 'earth-hat'
+   feed:
+     permission: 'earth-feed'
+   heal:
+     permission: 'earth-heal'
+   sudo:
+     permission: 'earth-sudo'

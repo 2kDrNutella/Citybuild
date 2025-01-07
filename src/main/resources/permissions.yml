@@ -1,0 +1,29 @@
+#[--------------------------------------]
+#|                                      |
+#|             Citybuild V 1.0          |
+#|             Permission File          |
+#|                                      |
+#[--------------------------------------]
+
+   earth-setspawn: "earth.setspawn"
+   earth-chatSpam: "earth.chatSpam"
+   earth-gamemode: "earth-gamemode"
+   earth-fly: "earth-fly"
+   earth-walkspeed: "earth-walkspeed"
+   earth-admin-tpa: "earth-admin-tpa"
+   earth-admin-tpahere: "earth-admin-tpahere"
+   earth-freez: "earth-freez"
+   earth-teleport: "earth-teleport"
+   earth-teleport-here: "earth-teleport-here"
+   earth-godmode: "earth-godmode"
+   earth-color-chat: "earth-color-chat"
+   earth-clear: "earth-clear"
+   earth-color-sign: "earth-color-sign"
+   earth-enderchest-edit: "earth-enderchest-edit"
+   earth-invsee-edit: "earth-invsee-edit"
+   earth-suicide: "earth-suicide"
+   earth-hat: "earth-hat"
+   earth-feed: "earth-feed"
+   earth-heal: "earth-heal"
+   earth-sudo: "earth-sudo"
+

@@ -1,0 +1,18 @@
+#[--------------------------------------]
+#|                                      |
+#|             Citybuild V 1.0          |
+#|             Config File              |
+#|                                      |
+#[--------------------------------------]
+
+  prefix: ""
+  emptyspace: ""
+  blockedCommands: ""
+  spawn:
+    World: 'world'
+    posX: 1
+    posY: 84
+    posZ: 0
+    Yaw: 0
+    Pitch: 0
+
